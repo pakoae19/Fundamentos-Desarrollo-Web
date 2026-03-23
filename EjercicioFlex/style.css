@@ -1,0 +1,45 @@
+.contenedor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Zona de columnas */
+.contenido {
+    display: flex;
+    flex: 1;
+}
+
+/* Columnas */
+.izquierda,
+.centro,
+.derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* Proporciones 1:2:1 */
+.izquierda {
+    flex: 1;
+    background-color: gray;
+    color: white;
+}
+
+.centro {
+    flex: 2;
+    background-color: white;
+}
+
+.derecha {
+    flex: 1;
+    background-color: gray;
+    color: white;
+}
