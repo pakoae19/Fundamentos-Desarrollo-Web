@@ -1,0 +1,51 @@
+/* Fondo */
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("assets/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 500px;
+    margin: 80px auto;
+    background-color: white;
+}
+
+/* Imagen */
+.contenedor img {
+    width: 100%;
+    display: block;
+}
+
+/* Parte de abajo (contenido) */
+.contenido {
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Línea */
+hr {
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+/* Texto */
+p {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+/* Botón */
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
