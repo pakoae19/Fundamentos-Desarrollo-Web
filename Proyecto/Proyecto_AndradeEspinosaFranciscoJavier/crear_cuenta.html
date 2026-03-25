@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Crear Cuenta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+  
+  <div class="left">
+    <div class="left-content">
+      <h2>Únete a nuestra Galería Artesanal</h2>
+      <p>Descubre recetas exclusivas y guarda tus dulces favoritos.</p>
+    </div>
+  </div>
+
+  <div class="right">
+    <span class="tag">BIENVENIDO</span>
+    <h1>Crear Cuenta</h1>
+    <p>Empieza tu viaje en el arte de la repostería.</p>
+
+    <div class="input-group">
+      <label>Nombre de usuario</label>
+      <input type="text" placeholder="Elige un nombre">
+    </div>
+
+    <div class="input-group">
+      <label>Correo electrónico</label>
+      <input type="email" placeholder="ejemplo@correo.com">
+    </div>
+
+    <div class="input-group">
+      <label>Contraseña</label>
+      <input type="password" placeholder="Mínimo 8 caracteres">
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox">
+      <span>Acepto los términos y políticas</span>
+    </div>
+
+    <button class="btn">Crear Mi Cuenta</button>
+
+    <div class="social">
+      <button>Google</button>
+      <button>Facebook</button>
+    </div>
+
+    <div class="login">
+      ¿Ya tienes una cuenta? <span>Inicia sesión</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const numero = Math.floor(Math.random() * 50) + 1;
+  const imagen = `assets/recetas/receta${numero}.jpg`;
+
+  document.querySelector('.left').style.backgroundImage = `url('${imagen}')`;
+</script>
+
+
+</body>
+</html>
